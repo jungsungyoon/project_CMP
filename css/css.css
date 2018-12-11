@@ -1,0 +1,26 @@
+header
+{
+	background-color: #25da92;
+	text-align: center;
+	padding: 40px 0;
+}
+header h1
+{
+	margin:0;
+}
+section
+{
+	text-align: center;
+	background-color: #f2f2f2;
+	height: 550px;
+}
+footer
+{
+	text-align: center;
+	background-color: #25da92;
+	padding: 20px 0px;
+}
+footer h4
+{
+	margin: 0;
+}
