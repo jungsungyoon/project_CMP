@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<ul>
+	<li>회사등록</li> 	<li>회사등록</li>
+</ul>
 </body>
 </html>
