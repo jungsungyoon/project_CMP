@@ -9,11 +9,7 @@
 <body>
 <ul>
 	<li>회사등록</li> 
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
+	<li>회사검색</li>
 </ul>
 </body>
 </html>

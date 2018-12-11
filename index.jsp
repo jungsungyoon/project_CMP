@@ -8,6 +8,7 @@
 <link rel = "stylesheet" type = "text/css" href = "css/css.css?after">
 </head>
 <body>
+
 	<header>
 		<jsp:include page="header.jsp"></jsp:include>
 	</header>
