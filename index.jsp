@@ -8,11 +8,19 @@
 <link rel = "stylesheet" type = "text/css" href = "css/css.css?after">
 </head>
 <body>
+	<nav>
+		<jsp:include page="nav.jsp"></jsp:include>
+	</nav>
+	<hr>
 	<header>
 		<jsp:include page="header.jsp"></jsp:include>
 	</header>
-	<section>
-		<jsp:include page="section.jsp"></jsp:include>
+		<section>
+<%
+		String st = request.getParameter("section");
+		if(st==null || st.equals("")) st = "section.jsp";
+%>
+		<jsp:include page="<%=st %>"/>
 	</section>
 	<footer>
 		<jsp:include page="footer.jsp"></jsp:include>

@@ -8,12 +8,8 @@
 </head>
 <body>
 <ul>
-	<li>회사등록</li> 
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
-	<li>회사등록</li>
+	<li><a href = "#">회사 등록</a></li> 
+	<li><a href = "index.jsp?section=search_list.jsp">회사 검색</a></li>
 </ul>
 </body>
 </html>
