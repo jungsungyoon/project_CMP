@@ -12,6 +12,10 @@
 	<header>
 		<jsp:include page="header.jsp"></jsp:include>
 	</header>
+	
+		<nav>
+		<jsp:include page="nav.jsp"></jsp:include>
+	</nav>
 	<section>
 		<jsp:include page="section.jsp"></jsp:include>
 	</section>

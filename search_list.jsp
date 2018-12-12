@@ -22,13 +22,14 @@
 	 request.setCharacterEncoding("UTF-8");
      response.setCharacterEncoding("UTF-8");
 	 String sort,type,title,content,op,other;
-	 String company_name=request.getParameter("search");
-	 System.out.println(company_name);
+	// String company_name=request.getParameter("search");
+	 String company=request.getParameter("company");
+	 System.out.println(company);
 	 Class.forName("com.mysql.jdbc.Driver");
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test3", "root", "muhanbit");
 	String sql="SELECT cate.sort, cus.type, cate.title, cus.content, cus.op, cus.other FROM customer_list_tbl as cus INNER JOIN category_tbl as cate ON cus.fk_seq = cate.seq INNER JOIN company_tbl com ON cus.company_name = com.company_name where com.company_name=?";
 	PreparedStatement psmt=con.prepareStatement(sql);
-	psmt.setString(1, company_name);
+	psmt.setString(1, company);
 	ResultSet rs=psmt.executeQuery();
 	while(rs.next()){
 		sort=rs.getString(1);
